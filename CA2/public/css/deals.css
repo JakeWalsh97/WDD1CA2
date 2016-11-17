@@ -1,0 +1,9 @@
+body {
+	font-family:Verdana, Arial, sans-serif;
+	background-color: #928DAB;
+}
+
+.img-responsive{
+    width:22.5em;
+    border:.20em solid #C04848;
+}

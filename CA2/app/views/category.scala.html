@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WTWGaming</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="public/css/custom2.css"/>		
+	</head>
+
+	<body>
+		
+		<nav class="navbar">
+			<div class="container">
+				<a class="navbar-brand" href="@routes.HomeController.index()">WTWGaming</a>
+				<div class="navbar-right">
+					<div class="container minicart"></div>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container-fluid breadcrumbBox text-center">
+			<ol class="breadcrumb">
+				<li class="active"><a href="#">Database</a></li>
+			</ol>
+		</div>
+		
+		<div class="container text-center">
+			
+			<div class="col-md-12 col-sm-12 text-left">
+				<ul>
+					<li class="row list-inline columnCaptions">
+						<span>ID</span>
+						<span>Genre</span>
+						<span>Item</span>
+						<span>Price</span>
+					</li>
+					<li class="row">
+						<span class="quantity">1</span>
+						<span class="genre">FPS</span>
+						<span class="infinitewarfare">Call of Duty: Infinite Warfare</span>
+						<span class="price">€69.99</span>
+					</li>
+					<li class="row">
+						<span class="quantity">2</span>
+						<span class="genre">Sports Games</span>
+						<span class="fifa">Fifa 17</span>
+						<span class="price">€69.99</span>
+					</li>
+					<li class="row">
+						<span class="quantity">3</span>
+						<span class="genre">RPG</span>
+						<span class="witcher">The Witcher 3: Wild Hunt</span>
+						<span class="price">€39.99</span>
+					</li>
+					<li class="row">
+						<span class="quantity">4</span>
+						<span class="genre">Open World Games</span>
+						<span class="gta">Grand Theft Auto V</span>
+						<span class="price">€49.99</span>
+					</li>
+					<li class="row">
+						<span class="quantity">5</span>
+						<span class="genre">Simulator</span>
+						<span class="goat">Goat Simulator</span>
+						<span class="price">€9.99</span>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- The popover content -->
+
+		<div id="popover" style="display: none">
+			<a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+			<a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+		</div>
+		
+		<!-- JavaScript includes -->
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+		<script src="public/js/bootstrap.min.js"></script>
+		<script src="public/js/customjs.js"></script>
+
+	</body>
+</html>
